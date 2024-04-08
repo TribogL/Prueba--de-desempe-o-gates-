@@ -1,0 +1,38 @@
+* {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+:root {
+    --negro: rgb(0, 0, 0);
+    ---blanco: #f1f1f1;
+}
+
+body {
+    background-clip: url(../../public/vid/background-glitch.mp4);
+}
+
+/* border-right: 5px solid blue;
+    border-left: 5px solid red ; */
+
+/* Header y navbar */
+.contenedor-placebo {
+    display: flex;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+/* main */
+.placebo-cuerpo {
+    display: flex;
+
+}
