@@ -1,184 +1,460 @@
+<!-- 
+Nombre Completo: Julian Felipe Forero Villa
+Clan: Gates
+fecha: 08/04/2024
+-->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Esta es una pagina web para una empresa mercante" />
+    <meta name="keywords" content="voyager,VOYAGER,nautical,NAUTICAL,VOYAGER NAUTICAL, voyager nautical" />
+    <meta name="sitedomain" content="https://VOYAGER_NAUTICAL.com" />
+    <meta name="author" content="Julian Felipe Forero Villa" />
+    <meta name=" designer" content="Julian Felipe Forero Villa" />
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="revisit-after" content="15days" />
+    <link rel="shortcut icon" href="./public/img/VOYAGER NAUTICAL Logo - Favicon - 32x32.png" type="image-x/" />
     <link rel="stylesheet" href="./src/css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet">
     <title>Placebo</title>
 </head>
+
 <body>
     <header>
         <section class="contenedor-placebo">
             <nav class="navbar">
+                <div class="barra-1">
                     <figure>
                         <img class="imagen-placebo" src="./public/img/placebo-logotype.webp" alt="Placebo">
                     </figure>
-                    <div>
-                        <a href="#">Listen</a>
-                        <a href="#">Listen</a>
-                        <a href="#">Listen</a>
-                        <a href="#">Listen</a>
-                        <a href="#">Listen</a>
-                        <a href="#">Listen</a>
-                        <a href="#">Listen</a>
-                    </div>
-                    <div>
-                        <a href="#">Listen</a>
-                        <a href="#">Listen</a>
-                    </div>
+                    <a href="#listen">listen</a>
+                    <a href="#watch">watch</a>
+                    <a href="#tour">tour</a>
+                    <a href="#merch">merch</a>
+                    <a href="#musicstore">music store</a>
+                    <a href="#gallery">gallery</a>
+                    <a href="#signup">sign up</a>
+                </div>
+                <div class="barra-2">
+                    <a href="#">
+                        <i class="bi bi-search"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-cart2"></i>
+                    </a>
+                </div>
             </nav>
         </section>
     </header>
     <main>
+        <section>
+            <div>
+                <video class="video" src="./public/vid/background-glitch.mp4" autoplay loop></video>
+            </div>
+        </section>
+        <!--sección del main, donde iran las publicaciones,canciones recientes, y merchandaising-->
+        <section class="placebo-inicial">
+            <figure>
+
+                <img class="imagen-placebo-1" src="./public/img/PLACEBO_Home (2).webp" alt="placebo home">
+
+            </figure>
+        </section>
+
         <section class="placebo-cuerpo">
-            <article>
-                <figure>
-                    <img class="imagen-placebo" src="./public/img/PLACEBO_Home (2).webp" alt="placebo home">
-                </figure>
+
+            <article class="canciones-1">
+
+                <div id="listen">
+
+                    <div>
+
+                        <figure>
+
+                            <img class="imagen-placebo-2" src="./public/img/watch.webp" alt="watch">
+                        </figure>
+
+                        <h3>watch</h3>
+
+                    </div>
+
+                    <div>
+                        <figure>
+                            <img class="imagen-placebo-2" src="./public/img/Order.webp" alt="watch">
+                        </figure>
+                        <h3>order</h3>
+                    </div>
+            </article>
+
+            <article class="canciones-2">
                 <div>
-                    <div>
-                        <figure>
-                            <img class="imagen-placebo" src="./public/img/watch.webp" alt="watch">
-                        </figure>
-                        <h3>watch</h3>
-                    </div>
-                    <div>
-                        <figure>
-                            <img class="imagen-placebo" src="./public/img/watch.webp" alt="watch">
-                        </figure>
-                        <h3>watch</h3>
-                    </div>
-                    <div>
-                        <figure>
-                            <img class="imagen-placebo" src="./public/img/watch.webp" alt="watch">
-                        </figure>
-                        <h3>watch</h3>
-                    </div>
-                    <div>
-                        <figure>
-                            <img class="imagen-placebo" src="./public/img/watch.webp" alt="watch">
-                        </figure>
-                        <h3>watch</h3>
-                    </div>
-                    <div>
-                        <figure>
-                            <img class="imagen-placebo" src="./public/img/watch.webp" alt="watch">
-                        </figure>
-                        <h3>watch</h3>
-                    </div>
+                    <figure>
+                        <img class="imagen-placebo-2" src="./public/img/tour.webp" alt="watch">
+                    </figure>
+                    <h3>tour</h3>
                 </div>
+
+
+
+
+                <div>
+                    <figure>
+                        <img class="imagen-placebo-2" src="./public/img/listen.webp" alt="watch">
+                    </figure>
+                    <h3>listen</h3>
+                </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <section class="contenedor-tienda">
+
+            <article id="merch">
+                <!--encargado de conteneder a los divs contenedores de los divs con los figures y textos-->
+                <article class="contenedor-contenedores">
+
+                    <div class="contenedores-mercancias">
+
+                        <div class="mercancia">
+
+                            <figure>
+                                <img class="imagen-placebo-3" src="./public/img/silhouettes tee.webp" alt="silhouettes">
+                            </figure>
+
+                        </div>
+
+                        <div class="texto-1">
+
+                            <h3>silhouettes tee</h3>
+                            <h4>$30.00</h4>
+
+
+                        </div>
+                        <input class="boton" type="submit" name="boton" id="boton" value="Choose options">
+                    </div>
+
+
+                    <div class="contenedores-mercancias">
+
+                        <div class="mercancia">
+
+                            <figure>
+                                <img class="imagen-placebo-3" src="./public/img/nancy boy.webp" alt="nancy boy">
+                            </figure>
+
+                        </div>
+
+                        <div class="texto-1">
+
+                            <h3>nancy boy</h3>
+                            <h4>$15.00</h4>
+
+
+                        </div>
+                        <input class="boton" type="submit" name="boton" id="boton" value="add to cart">
+                    </div>
+
+
+                    <div class="contenedores-mercancias">
+
+
+                        <div class="mercancia">
+
+                            <figure>
+                                <img class="imagen-placebo-3"
+                                    src="./public/img/collapse into never - unscented candle.webp"
+                                    alt="collapse into never">
+                            </figure>
+
+                        </div>
+
+                        <div class="texto-1">
+                            <h3>collapse into never - unscented candle</h3>
+                            <h4>$30.00</h4>
+
+                        </div>
+                        <input class="boton" type="submit" name="boton" id="boton" value="add to cart">
+                    </div>
+
+                    <div class="contenedores-mercancias">
+
+                        <div class="mercancia">
+
+                            <figure>
+                                <img class="imagen-placebo-3" src="./public/img/this is what you wanted shopper.webp"
+                                    alt="you wanted shopper">
+                            </figure>
+
+                        </div>
+
+                        <div class="texto-1">
+
+                            <h3>you wanted shopper</h3>
+                            <h4>$20.00</h4>
+
+                        </div>
+
+                        <input class="boton" type="submit" name="boton" id="boton" value="add to cart">
+
+                    </div>
+
+                </article>
+                <!--misma clase que el primer sub-article-->
+                <article class="contenedor-contenedores">
+
+                    <div class="contenedores-mercancias">
+
+                        <div class="mercancia">
+                            <figure>
+                                <img class="imagen-placebo-3" src="./public/img/1-placebo-live-box.webp"
+                                    alt="placebo live - boxset">
+                            </figure>
+                        </div>
+
+                        <div class="texto-1">
+                            <h3>placebo live - boxset</h3>
+                            <h4>$99.99</h4>
+                        </div>
+
+                        <input class="boton" type="submit" name="boton" id="boton" value="add to cart">
+                    </div>
+
+
+                    <div class="contenedores-mercancias">
+
+                        <div class="mercancia">
+                            <figure>
+                                <img class="imagen-placebo-3" src="./public/img/Placebo_SleepingWIthGhosts_Vinyl_A.webp"
+                                    alt="SleepingWIthGhosts_Vinyl">
+                            </figure>
+                        </div>
+                        <div class="texto-1">
+                            <h3>Sleeping with ghosts vinyl</h3>
+                            <h4>$18.00</h4>
+
+                        </div>
+
+                        <input class="boton" type="submit" name="boton" id="boton" value="add to cart">
+
+                    </div>
+
+                    <div class="contenedores-mercancias">
+
+
+                        <div class="mercancia">
+                            <figure>
+                                <img class="imagen-placebo-3"
+                                    src="./public/img/Placebo_WithoutYouImNothing_Vinyl_A.webp"
+                                    alt="WithoutYouImNothing_Vinyl">
+                            </figure>
+                        </div>
+
+                        <div class="texto-1">
+                            <h3>Without you i'm nothing vinyl</h3>
+                            <h4>$30.00</h4>
+
+                        </div>
+                        <input class="boton" type="submit" name="boton" id="boton" value="add to cart">
+                    </div>
+
+
+                    <div class="contenedores-mercancias">
+
+                        <div class="mercancia">
+                            <figure>
+                                <img class="imagen-placebo-3" src="./public/img/silhouettes tee.webp" alt="silhouettes">
+                            </figure>
+                        </div>
+                        <div class="texto-1">
+                            <h3>silhouettes tee</h3>
+                            <h4>$18.00</h4>
+
+                        </div>
+                        <input class="boton" type="submit" name="boton" id="boton" value="add to cart">
+                    </div>
+                </article>
             </article>
         </section>
-        <section>
-            <article>
-                <div class="mercancia">
-                    <figure>
-                        <img src="./public/img/silhouettes tee.webp" alt="silhouettes">
-                    </figure>
-                    <h4>silhouettes tee</h4>
-                    <h6>$30.000</h6>
-                    <a href="#">choose option</a>
-                </div>
-                <div class="mercancia">
-                    <figure>
-                        <img src="./public/img/silhouettes tee.webp" alt="silhouettes">
-                    </figure>
-                    <h4>silhouettes tee</h4>
-                    <h6>$30.000</h6>
-                    <a href="#">choose option</a>
-                </div>
-                <div class="mercancia">
-                    <figure>
-                        <img src="./public/img/silhouettes tee.webp" alt="silhouettes">
-                    </figure>
-                    <h4>silhouettes tee</h4>
-                    <h6>$30.000</h6>
-                    <a href="#">choose option</a>
-                </div>
-                <div class="mercancia">
-                    <figure>
-                        <img src="./public/img/silhouettes tee.webp" alt="silhouettes">
-                    </figure>
-                    <h4>silhouettes tee</h4>
-                    <h6>$30.000</h6>
-                    <a href="#">choose option</a>
-                </div>
-                <div class="mercancia">
-                    <figure>
-                        <img src="./public/img/silhouettes tee.webp" alt="silhouettes">
-                    </figure>
-                    <h3>silhouettes tee</h3>
-                    <h4>$30.000</h4>
-                    <a href="#">choose option</a>
-                </div>
-                <div class="mercancia">
-                    <figure>
-                        <img src="./public/img/silhouettes tee.webp" alt="silhouettes">
-                    </figure>
-                    <h4>silhouettes tee</h4>
-                    <h6>$30.000</h6>
-                    <a href="#">choose option</a>
-                </div>
-                <div class="mercancia">
-                    <figure>
-                        <img src="./public/img/silhouettes tee.webp" alt="silhouettes">
-                    </figure>
-                    <h4>silhouettes tee</h4>
-                    <h6>$30.000</h6>
-                    <a href="#">choose option</a>
-                </div>
-                <div class="mercancia">
-                    <figure>
-                        <img src="./public/img/silhouettes tee.webp" alt="silhouettes">
-                    </figure>
-                    <h4>silhouettes tee</h4>
-                    <h6>$30.000</h6>
-                    <a href="#">choose option</a>
-                </div>
-            </article>
-        </section>
+
     </main>
+
+
+
     <footer>
-        <section>
-            <article class="eventos">
-                <h2>playing near you</h2>
-                <div class="conciertos">
-                    <div>
-                        <span>may.8,2024</span>
-                        <h4>pioneertown,CA</h4>
+
+        <section class="eventos">
+            <article id="">
+                <article class="contenedor-concientos">
+                    <div class="titulos">
+                        <div>
+                            <h2>playing near you</h2>
+                        </div>
+
+                        <div>
+                            <h3>track to get concert, live stream and tour updates</h3>
+                        </div>
                     </div>
-                    <a href="#">tickets</a>
-                </div>
-                <div class="conciertos">
-                    <div>
-                        <span>may.8,2024</span>
-                        <h5>pioneertown,CA</h5>
+
+
+                    <div class="conciertos">
+
+                        <div>
+
+                            <span>may.8,2024</span>
+                        </div>
+                        <div>
+                            <h5>pioneertown,CA</h5>
+                        </div>
+
+                        <input class="boton" type="submit" name="boton" id="boton" value="tickets">
+
                     </div>
-                    <a href="#">tickets</a>
-                </div>
-                <div class="conciertos">
-                    <div>
-                        <span>may.8,2024</span>
-                        <h5>pioneertown,CA</h5>
+
+
+                    <div class="conciertos">
+
+                        <div>
+
+                            <span>may.9,2024</span>
+                        </div>
+                        <div>
+                            <h5>pasadena,CA</h5>
+
+                        </div>
+
+                        <input class="boton" type="submit" name="boton" id="boton" value="tickets">
+
                     </div>
-                    <a href="#">tickets</a>
-                </div>
-                <div class="conciertos">
-                    <div>
-                        <span>may.8,2024</span>
-                        <h5>pioneertown,CA</h5>
+
+                    <div class="conciertos">
+
+                        <div>
+
+                            <span>may.11,2024</span>
+                        </div>
+                        <div>
+                            <h5>halifax,United Kingdom</h5>
+
+                        </div>
+
+                        <input class="boton" type="submit" name="boton" id="boton" value="tickets">
+
                     </div>
-                    <a href="#">tickets</a>
-                </div>
-                <div class="conciertos">
-                    <div>
-                        <span>may.8,2024</span>
-                        <h5>pioneertown,CA</h5>
+
+                    <div class="conciertos">
+
+                        <div>
+
+                            <span>may.25,2024</span>
+                        </div>
+                        <div>
+                            <h5>Southampton,United Kingdom</h5>
+
+                        </div>
+
+                        <input class="boton" type="submit" name="boton" id="boton" value="tickets">
+
                     </div>
-                    <a href="#">tickets</a>
+
+
+                    <div class="conciertos">
+
+                        <div>
+
+                            <span>jun.21,2024</span>
+                        </div>
+                        <div>
+                            <h5>Bristol,United Kingdom</h5>
+                        </div>
+
+                        <input class="boton" type="submit" name="boton" id="boton" value="tickets">
+
+                    </div>
+
+                </article>
+
+
+                <article>
+
+                    <div class="antitulos">
+
+                        <h3>get updates on new shows, new music, and more.</h3>
+
+                        <input class="boton" type="submit" name="boton" id="boton" value="Follow">
+                    </div>
+
+
+                </article>
+
+            </article>
+
+        </section>
+
+
+        <section class="newsletter">
+
+            <article id="signup">
+
+                <div>
+
+                    <h2>suscribe to our newsletter</h2>
+
                 </div>
+                <div>
+                    <h5>stay in the loop with our lastest product and music realiases. Sign up now to be the firstto
+                        know and get exclusive access</h5>
+
+                </div>
+                <input class="boton" type="submit" name="boton" id="boton" value="Sing up">
+
+            </article>
+
+        </section>
+
+
+        <section class="redes">
+
+            <article class="conten-redes">
+
+                <a href="https://web.facebook.com/officialplacebo/?locale=es_LA&_rdc=1&_rdr" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/placeboworld/?hl=es" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/@placeboworld" target="_blank">
+                    <i class="bi bi-youtube"></i>
+                </a>
+                <a href="https://music.apple.com/mx/artist/placebo/649817" target="_blank">
+                    <i class="bi bi-apple" target="_blank"></i>
+                </a>
+                <a href="spotify:artist:6RZUqkomCmb8zCRqc9eznB" target="_blank">
+                    <i class="bi bi-spotify"></i>
+                </a>
             </article>
         </section>
+
+        <section class="derechos">
+            <span>"&copy; 2024".</span>
+            <a href="#">Placebo-Powered by BSI Merch</a>
+            <a href="#"> Refund policy</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms of service</a>
+            <a href="#">Contact</a>
+            <a href="#">Help & FAQS</a>
+            <a href="#">Sing up</a>
+        </section>
+
     </footer>
+
 </body>
+
 </html>

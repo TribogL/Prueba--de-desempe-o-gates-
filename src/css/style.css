@@ -1,16 +1,30 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 * {
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
-    height: 100%;
-    width: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+    letter-spacing: 1.2px;
 }
 
 :root {
-    --negro: rgb(0, 0, 0);
+    --negro: rgba(0, 0, 0, 0.118);
     ---blanco: #f1f1f1;
+    --blue: blue;
+    --red: red;
+    --momentanio-1: tomato;
+    --momentanio-2: orange;
+    --momentanio-3: pink;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    background-clip: url(../../public/vid/background-glitch.mp4);
+
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* border-right: 5px solid blue;
@@ -18,21 +32,217 @@ body {
 
 /* Header y navbar */
 .contenedor-placebo {
-    display: flex;
-
+    background-color: var(--negro);
 }
 
 .navbar {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+    align-items: center;
+    justify-content: start;
+    gap: 30rem;
 }
 
+.navbar a {
+    color: var(---blanco);
+    font-size: 25px;
+}
 
+.barra-1 {
+    display: inherit;
+    align-items: center;
+}
+
+.barra-1 a {
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+.barra-2 a {
+    margin: 15px;
+}
+
+/* imagenen header */
+.imagen-placebo {
+    height: 100px;
+    width: 400px;
+    margin-left: -10px;
+    margin-right: -20px;
+}
+
+/* video de fondo */
+.video {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
 
 /* main */
+.placebo-inicial {
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.imagen-placebo-1 {
+    max-height: 930px;
+}
+
 .placebo-cuerpo {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
 
+.placebo-cuerpo h3 {
+    color: var(---blanco);
+    text-align: center;
+    font-size: 30px;
+}
+
+.imagen-placebo-2 {
+    align-items: center;
+    height: 300px;
+    width: 400px;
+}
+
+/* sección del mercado */
+.contenedor-tienda {
+    display: flex;
+    max-height: 900px;
+}
+
+.contenedor-contenedores {
+    display: flex;
+    margin: 100px;
+}
+
+.contenedores-mercancias {
+    align-items: center;
+    width: 26rem;
+}
+
+.mercancia {
+    background-color: var(---blanco);
+    background-size: cover;
+    margin: -100px 10px 0px 10px;
+}
+
+.imagen-placebo-3 {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.texto-1 {
+    align-items: center;
+}
+
+.texto-1 h3 {
+    text-align: center;
+    width: 270px;
+    color: var(---blanco);
+    font-size: 25px;
+}
+
+.texto-1 h4 {
+    text-align: center;
+    color: var(---blanco);
+    font-size: 20px;
+}
+
+.texto-1 a {
+    text-align: center;
+    color: var(---blanco);
+}
+/* Botones */
+.boton {
+    text-decoration: underline;
+    font-size: 20px;
+    transform:scale3d(-100px);
+    padding: 15px;
+    border-radius: 25px;
+    background-color: var(---blanco);
+    cursor: pointer;
+}
+
+.boton:hover{
+    transition:cubic-bezier(0.165, 0.84, 0.44, 1);
+    border-right: 5px solid var(--blue);
+    border-left: 5px solid var(--red);
+}
+/* footer */
+/* conciertos */
+.eventos{
+    margin: 10vh 0vh 10vh 0vh;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-eventos{
+    align-items: end;
+}
+.titulos h2{
+    text-align: center;
+    font-size: 50px;
+    color: var(---blanco);
+}
+.titulos h3{
+    text-align: center;
+    font-size: 20px;
+    color: var(---blanco);
+}
+.antitulos{
+    text-align: center;
+    font-size: 20px;
+    color: var(---blanco);
+}
+input{
+    width: 10rem;
+}
+.conciertos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conciertos span,h5{
+    font-size: 20px;
+ color: var(---blanco);
+}
+/* newletter */
+.newsletter{
+    margin: 10vh 0vh 10vh 0vh;
+}
+.newsletter ,h5, h2{
+    color: var(---blanco);
+    text-align: center;    
+}
+
+/* redes */
+.redes{
+    display: flex;  
+    flex-direction: column;
+    width: 90rem;
+}
+.conten-redes{
+    margin: 0vh 0vh 0vh 50vh;
+    display: inherit;
+    justify-content: center;
+}
+.conten-redes a{
+    text-align: center;
+    margin: 0px 30px 0px 30px;
+    color: var(---blanco);
+   font-size: 50px;
+  
+}
+/* derechos */
+.derechos span, a{
+    margin: 0vh 0vh 0vh 10vh;
+    text-align: center;
+    margin-top: 60px;
+    color: var(---blanco);
+    font-size: 14px;
 }
